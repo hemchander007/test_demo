@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('main') {
+        stage('prod') {
             steps {
-                sh 'Hello this is main'
+                sh 'Hello this is prod'
             }
         }
     }
